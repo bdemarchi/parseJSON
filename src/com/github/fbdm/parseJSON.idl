@@ -1,0 +1,17 @@
+/*
+ * parseJSON.idl
+ *
+ * Created on 2018.03.23 - 20:59:31
+ *
+ */
+
+#ifndef _com_github_fbdm_parseJSON_
+#define _com_github_fbdm_parseJSON_
+
+#include "XparseJSON.idl"
+
+module com { module github { module fbdm {
+    service parseJSON : XparseJSON;
+}; }; };
+
+#endif

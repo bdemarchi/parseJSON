@@ -1,0 +1,25 @@
+/*
+ * XparseJSON.idl
+ *
+ * Created on 2018.03.23 - 20:59:31
+ *
+ */
+
+#ifndef _com_github_fbdm_XparseJSON_
+#define _com_github_fbdm_XparseJSON_
+
+#include <com/sun/star/lang/XLocalizable.idl>
+
+#include <com/sun/star/uno/XInterface.idl>
+
+
+module com { module github { module fbdm {
+    interface XparseJSON {
+        /// used to set an add-in locale for formatting reasons for example
+        [optional] interface ::com::sun::star::lang::XLocalizable;
+
+        string parseJSON([in] string url, [in] string query);
+    };
+}; }; };
+
+#endif

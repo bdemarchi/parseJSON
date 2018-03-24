@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+Created-By: 1.8.0_91-b15 (Oracle Corporation)
+UNO-Type-Path: parseJSON_IDL_types.jar
+RegistrationClassName: com.github.fbdm.CentralRegistrationClass
+Class-Path: lib/javaee-api-7.0.jar lib/json-path-2.3.0.jar lib/json-sm
+ art-2.3.jar lib/accessors-smart-1.2.jar lib/asm-5.0.4.jar lib/slf4j-a
+ pi-1.7.25.jar lib/stax-api-1.0.1.jar
+
+Name: com/github/fbdm/CentralRegistrationClass.class
+RegistrationClasses: com.github.fbdm.parseJSONImpl
+
