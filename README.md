@@ -16,4 +16,5 @@ Check the FsonPath project in order to understand how to query values in the JSO
 Function example:
 =PARSEJSON("https://api.coinmarketcap.com/v1/ticker/bitcoin/";"$[0]price_usd")
 
-
+This component was developed using Netbeans 8.1 and the OpenOffice plugin for Netbeans.
+I tried using Netbeans 8.2 but the OpenOffice plugin was not working properly with that version.
